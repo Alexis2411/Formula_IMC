@@ -14,19 +14,19 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
 
-  it('debe crear app', () => {
+  it('crear app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  it(`debe crear el titulo'formIMC'`, () => {
+  it(`crear el titulo'formIMC'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('formIMC');
   });
 
-  it('debe mostrar texto', () => {
+  it('mostrar texto', () => {
     const app =AppComponent;
     expect(app).toBeTruthy(); 
   });
