@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+  }
+
+.boton{
+    margin-top: 20px;
+    background: green;
+    color: white;
+    padding: 7px 50px;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+.boton:active{
+    margin-top: 20px;
+    background: greenyellow;
+    color: rgb(0, 0, 0);
+    padding: 7px 50px;
+    margin-right: 10px;
+
+}
+
+.resultado{
+    font-size: 50px;
+    
+}

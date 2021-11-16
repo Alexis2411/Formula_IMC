@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="cuadrodeformula">
+        <p>Peso</p><input type="number" class="textbox" name="value1" placeholder="Kilogramos" id="value1" [(ngModel)]="value1" >
+        <p>Altura</p><input type="number" class="textbox" name="value2" placeholder="Metros" id="value2" [(ngModel)]="value2" >
+    </div>
+    <p><button class="boton"(click)="calcular()">Calcular</button></p>
+    <p class="resultado">IMC =  {{resultado}}</p>
+</body>
+</html>
